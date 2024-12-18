@@ -31,5 +31,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "jest": {
+    "testMatch": [
+      "**/src/**/*.{test,spec}.{js,jsx,ts,tsx}"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3"
   }
 }
