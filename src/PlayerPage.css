@@ -1,0 +1,87 @@
+/* PlayerPage.css */
+
+.player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.player-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.player-title {
+    font-size: 2.5rem;
+    color: #0077cc;
+}
+
+.player-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.player-info {
+    text-align: center;
+}
+
+.player-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #0077cc;
+    margin-bottom: 10px;
+}
+
+.player-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.player-stats {
+    font-size: 1rem;
+    color: #555;
+}
+
+.player-bio {
+    max-width: 600px;
+    text-align: left;
+}
+
+.bio-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #0077cc;
+}
+
+.bio-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.player-footer {
+    margin-top: 20px;
+}
+
+.player-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0077cc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.player-button:hover {
+    background-color: #005fa3;
+}
